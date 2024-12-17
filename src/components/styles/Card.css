@@ -1,0 +1,29 @@
+.card {
+  max-width: 300px;
+  margin: 2rem;
+  background-color: #fffff9;
+  border-radius: 1rem;
+  box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+.card .top {
+  position: relative;
+  width: 300px;
+  height: 360px;
+  color: #fffff9;
+  border-radius: 1rem 1rem 0 0;
+  background: url("https://i.pinimg.com/564x/fb/ca/55/fbca559bda6a4a5582ee8124236712d3.jpg")
+    no-repeat center top;
+  transition: background-size 1.5s ease-in-out;
+  background-size: 100%;
+}
+
+.card .top::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+}
