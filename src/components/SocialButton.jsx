@@ -1,4 +1,5 @@
 import "./styles/Social.css";
+import PropTypes from "prop-types";
 
 function SocialButton({ icon, size, url }) {
   return (
@@ -9,5 +10,11 @@ function SocialButton({ icon, size, url }) {
     </button>
   );
 }
+
+SocialButton.propTypes = {
+  icon: PropTypes.string.isRequired,
+  size: PropTypes.string,
+  url: PropTypes.string.isRequired,
+};
 
 export default SocialButton;
