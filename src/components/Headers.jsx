@@ -1,6 +1,12 @@
 import SocialButton from "./SocialButton";
 import "./styles/Headers.css";
 
+/**
+ * Headers component renders a collection of social media buttons.
+ *
+ * @component
+ * @returns {JSX.Element} A container with multiple SocialButton components
+ */
 function Headers() {
   return (
     <>
