@@ -1,0 +1,14 @@
+.social-buttons {
+  float: left;
+  position: absolute;
+  top: 0;
+  padding: 1.5rem;
+  padding-top: 0.6rem;
+  padding-left: 0.9rem;
+}
+
+.social-buttons.right {
+  float: right;
+  top: 0;
+  right: 0;
+}
