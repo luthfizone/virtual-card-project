@@ -1,9 +1,11 @@
 import "./styles/Social.css";
 
-function SocialButton({ icon, size }) {
+function SocialButton({ icon, size, url }) {
   return (
     <button>
-      <i className={`fa-brands ${icon} ${size}`}></i>
+      <a href={url} target="_blank">
+        <i className={`fa-brands ${icon} ${size}`}></i>
+      </a>
     </button>
   );
 }
