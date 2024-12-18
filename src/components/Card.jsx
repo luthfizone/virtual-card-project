@@ -1,4 +1,5 @@
 import Headers from "./Headers.jsx";
+import Identity from "./Identity.jsx";
 import "./styles/Card.css";
 
 /**
@@ -12,6 +13,7 @@ function Card() {
     <div className="card">
       <div className="top">
         <Headers />
+        <Identity />
       </div>
       <div className="bottom"></div>
     </div>
