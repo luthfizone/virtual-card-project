@@ -1,5 +1,6 @@
 import SocialButton from "./SocialButton";
 import "./styles/Headers.css";
+import data from "../data/socialMediaData.json";
 
 /**
  * Headers component renders a collection of social media buttons.
@@ -8,28 +9,29 @@ import "./styles/Headers.css";
  * @returns {JSX.Element} A container with multiple SocialButton components
  */
 function Headers() {
+  const socialMediaLeft = data.slice(0, 3);
+  const socialMediaRight = data.slice(3);
   return (
     <>
       <div className="social-buttons">
-        <SocialButton icon="fa-facebook" size="fa-lg" url={"#"} />
-        <SocialButton icon="fa-twitter" size="fa-lg" url={""} />
-        <SocialButton
-          icon="fa-instagram"
-          size="fa-lg"
-          url={"https://www.instagram.com/luthfizone/?"}
-        />
+        {socialMediaLeft.map((social, index) => (
+          <SocialButton
+            key={index}
+            icon={social.icon}
+            size={social.size}
+            url={social.url}
+          />
+        ))}
       </div>
       <div className="social-buttons right">
-        <SocialButton
-          icon="fa-linkedin"
-          size="fa-lg"
-          url={"https://www.linkedin.com/in/luthfizone/"}
-        />
-        <SocialButton
-          icon="fa-github"
-          size="fa-lg"
-          url={"https://github.com/luthfizone"}
-        />
+        {socialMediaRight.map((social, index) => (
+          <SocialButton
+            key={index}
+            icon={social.icon}
+            size={social.size}
+            url={social.url}
+          />
+        ))}
       </div>
     </>
   );

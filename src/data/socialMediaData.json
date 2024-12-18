@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "fa-facebook",
+    "size": "fa-lg",
+    "url": "#"
+  },
+  {
+    "icon": "fa-twitter",
+    "size": "fa-lg",
+    "url": "#"
+  },
+  {
+    "icon": "fa-instagram",
+    "size": "fa-lg",
+    "url": "https://www.instagram.com/luthfizone/?"
+  },
+  {
+    "icon": "fa-linkedin",
+    "size": "fa-lg",
+    "url": "https://www.linkedin.com/in/luthfizone/"
+  },
+  {
+    "icon": "fa-github",
+    "size": "fa-lg",
+    "url": "https://github.com/luthfizone"
+  }
+]
