@@ -1,7 +1,7 @@
 import Biodata from "./Biodata.jsx";
 import Headers from "./Headers.jsx";
 import Identity from "./Identity.jsx";
-import Hightlight from "./Hightlight.jsx";
+import Hightlight from "./HightlightBadge.jsx";
 import "./styles/Card.css";
 
 /**
