@@ -1,8 +1,9 @@
-# React + Vite
+# Virtual Card Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the static website for creating virtual Black Cat card with native CSS and ReactJS
+The project will redirect to my Instagram, Linkedin, Facebook, Twitter, and Github account
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2024-12-18 152026](https://github.com/user-attachments/assets/ac33ea99-25c1-4c85-ab60-a0f0ee18bc88) [Desktop Display]
+
+![Screenshot 2024-12-18 152008](https://github.com/user-attachments/assets/67fd7693-ddbe-402d-881c-426ad7aba084) [Mobile Display]
