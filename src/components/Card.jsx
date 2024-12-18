@@ -1,3 +1,4 @@
+import Biodata from "./Biodata.jsx";
 import Headers from "./Headers.jsx";
 import Identity from "./Identity.jsx";
 import "./styles/Card.css";
@@ -15,7 +16,9 @@ function Card() {
         <Headers />
         <Identity />
       </div>
-      <div className="bottom"></div>
+      <div className="bottom">
+        <Biodata />
+      </div>
     </div>
   );
 }

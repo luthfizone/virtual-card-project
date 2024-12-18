@@ -27,3 +27,9 @@
   height: 30%;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
 }
+
+.bottom {
+  padding: 1rem 1.5rem 0.8rem;
+  background-color: #3895d3;
+  border-radius: 0 0 1rem 1rem;
+}
