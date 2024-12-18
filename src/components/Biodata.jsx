@@ -1,5 +1,11 @@
 import "./styles/Biodata.css";
 
+/**
+ * Biodata components that serves element description jobs
+ *
+ * @component
+ * @returns {JSX.Element} A Biodata element containing the desc element
+ */
 function Biodata() {
   return (
     <div className="desc">

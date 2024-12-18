@@ -1,5 +1,11 @@
 import Badge from "./Badge";
 import "./styles/Hightlight.css";
+
+/**
+ *
+ * @component
+ * @returns {JSX.Element} A Hightlight component that containing Badge component
+ */
 function Hightlight() {
   return (
     <div className="buttons">

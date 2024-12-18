@@ -1,5 +1,10 @@
 import "./styles/Identity.css";
 
+/**
+ *
+ * @component
+ * @returns {JSX.Element} A containing element that display data from Identity component
+ */
 function Identity() {
   return (
     <div className="text">
