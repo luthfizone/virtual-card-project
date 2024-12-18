@@ -1,6 +1,7 @@
 import Biodata from "./Biodata.jsx";
 import Headers from "./Headers.jsx";
 import Identity from "./Identity.jsx";
+import Hightlight from "./Hightlight.jsx";
 import "./styles/Card.css";
 
 /**
@@ -18,6 +19,7 @@ function Card() {
       </div>
       <div className="bottom">
         <Biodata />
+        <Hightlight />
       </div>
     </div>
   );
